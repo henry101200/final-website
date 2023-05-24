@@ -1,0 +1,107 @@
+header {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #000000;
+    align-items: center;
+padding-left: 3.07rem;
+    grid-column-gap: 5rem;
+}
+
+body {
+    background-color: #444444;
+}
+
+.brand p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b39a7c;
+}
+
+.events {
+    padding: 1.1rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.events img {
+    height: 21rem;
+    max-width: 100%;
+}
+
+.events a {
+    background: #395870;
+    background: linear-gradient(#248ec7, #0b7fbd);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 0.5rem 2.1rem 0.5rem 2.1rem;
+    text-decoration: none;
+}
+
+.events a:hover {
+    background: #1b5b7d;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+figure {
+    background-color: white;
+}
+
+figcaption {
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.events p {
+    font-size: 0.86rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    background-color: #000000;
+    padding: 1.07rem;
+}
+
+footer a {
+    display: block;
+    color: white;
+    font-size: 1.36rem;
+    margin-right: 1.07rem;
+    margin-bottom: 1.07rem;
+    text-decoration: none;
+    font-size: 1.36rem;
+}
+
+footer i {
+    color: #2490BE;
+    margin-right: 0.5rem;
+    font-size: 1.36rem;
+    max-width: 100%;
+}
+
+header p {
+    color: #2490BE;
+    font-size: 1.36rem;
+
+}
+
+header i {
+    color: #2490BE;
+    padding: 0.5rem;
+    font-size: 1.36rem;
+    max-width: 100%;
+}
+
+
+#splashSection {
+    background-image: url(images/event%20bg.jpg);
+    background-position: center center;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1.1rem;
+    color: white;
+    font-size: 2.7rem;
+    margin: 1.6rem 3.2rem 0.5rem 3.2rem;
+}
